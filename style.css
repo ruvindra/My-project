@@ -130,8 +130,7 @@ body {
 
 
 .menuicon {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
     padding-left: 15px;
     cursor: pointer;
 }
@@ -245,7 +244,6 @@ color: white;
     background-color: #581b1b;
     margin-top: 20px;
     border-radius: 5px;
-    width: fit-content;
 }
 
 .home:hover {
@@ -560,6 +558,7 @@ color: white;
     justify-content: center;
     gap: 50px;
     align-items: center;
+    font-family:jua, sans-serif;
 }
 
 .pictures {
