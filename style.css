@@ -5,18 +5,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Jua&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
+@media (min-width:420px) {
+   
+    .container {
+        width: 100%;
+    }
 
+    .footer {
+        gap: 150px;
+    }
+    
+}
 
 .sixboxes {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 20px;
     gap: 10px;   
     
 }
 
 html {
-    
+   width: 100%; 
     
 }
 
@@ -29,7 +39,10 @@ body {
     color: #581b1b;
     font-family: Italianno, cursive;
     font-size: 150px;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 10px; 
 }
 
 .container {
@@ -52,12 +65,6 @@ body {
     flex-direction: column;
     align-items: center;
     
-}
-
-.welcome {
-    padding-left: 30px;
-    padding-right: 10px;
-    padding-top: 10px;
 }
 
 .location {
@@ -232,11 +239,13 @@ color: white;
 .footer {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    align-content: center;
     padding-top: 20px;
     background-color: #581b1b;
-    height: fit-content;
     margin-top: 20px;
     border-radius: 5px;
+    width: fit-content;
 }
 
 .home:hover {
