@@ -5,18 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Jua&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-@media (min-width: 412px) {
-    .sixboxes {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        margin: 10px;
-        gap: 10px;
-    }
 
-    .division1 {
-        width: fit-content;
-    }
-}
 
 .sixboxes {
     display: grid;
