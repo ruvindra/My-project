@@ -13,6 +13,7 @@
 
     .footer {
         gap: 150px;
+        width: fit-content;
     }
     
 }
