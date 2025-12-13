@@ -5,21 +5,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Jua&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-@media (min-width:412px) {
-   
-    .container {
-        width: 100%;
-    }
-
-    .footer {
-        gap: 150px;
-        width: fit-content;
-    }
-    .sixboxes {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    }
-}
 
 .sixboxes {
     display: grid;
@@ -593,6 +578,10 @@ color: white;
     cursor: pointer;
 }
 
+.add-:hover {
+    background-color: #d6cba4;
+}
+
 .minus- {
     height: 30px;
     width: 30px;
@@ -605,6 +594,10 @@ color: white;
     color: #581B1B;
     cursor: pointer;
     padding-bottom: 5px;
+}
+
+.minus-:hover {
+    background-color: #d6cba4;
 }
 
 .quantities {
